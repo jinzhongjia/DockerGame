@@ -1,2 +1,3 @@
-# dockerGame
-a docker game container
+# DockerGame
+
+Run Game Server through docker
