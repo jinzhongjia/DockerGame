@@ -13,6 +13,7 @@
 ```sh
 docker run -d \
 --restart=always \
+--name satisfactory \
 -v ~/satisfactory:/game \
 -p 7777:7777/udp \
 -p 15000:15000/udp \
