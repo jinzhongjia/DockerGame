@@ -1,6 +1,6 @@
 # Introduction
 
-<p align="center"> <a href="https://github.com/jinzhongjia//blob/main/Readme_CN.md">中文</a> </p>
+<p align="center"> <a href="https://github.com/jinzhongjia/DockerGame/blob/main/Satisfactory/README_CN.md">中文</a> </p>
 
 > Satisfactory is a factory simulation game created by Swedish video game developer Coffee Stain Studios.
 > It is a 3D first-person open world exploration and factory building game.
