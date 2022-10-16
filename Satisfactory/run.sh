@@ -22,8 +22,11 @@ Determine whether the file exists to determine whether it is running for the fir
 if [ ! -f "$File" ]; then
   touch "$File"
   echo "Start game configuration optimization"
-  mkdir -p "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
-  cp /home/steam/config/*.ini  "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
+  # mkdir -p "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
+  # cp /home/steam/config/Game.ini  "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
+  mkdir -p /game/config
+  ln -sf "/game/config" "$GameDir"/FactoryGame/Saved/Config/LinuxServer
+  cp /home/steam/config/Game.ini  /game/config/
   mkdir -p /game/saves 
   ln -sf "/game/saves" "/home/steam/.config/Epic/FactoryGame/Saved/SaveGames/server"
   echo "Configuration optimization completed"
