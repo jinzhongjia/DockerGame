@@ -44,3 +44,11 @@ You just restart the container, it will auto update, let's enjoy!
 ## Thanks
 
 Thanks to [wolveix](https://github.com/wolveix)'s satisfaactory docker project, it gave me inspiration, especially for server-side optimization
+
+## Some Useful Ducument
+
+- [official website](https://www.satisfactorygame.com/)
+- [interactive-map](https://satisfactory-calculator.com/en/interactive-map/)
+- [MOD platform](https://ficsit.app/)
+- [official forums](https://questions.satisfactorygame.com/)
+- [official wiki](https://satisfactory.fandom.com/wiki/Dedicated_servers)

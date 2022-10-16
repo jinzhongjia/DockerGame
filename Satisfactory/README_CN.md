@@ -34,3 +34,11 @@ yunyizhiying/satisfactory:latest
 ## 致谢
 
 感谢[wolveix](https://github.com/wolveix)的《幸福工厂》docker 镜像，给了我不少灵感，尤其是服务器优化上！
+
+## 一些有用的文档
+
+- [官网](https://www.satisfactorygame.com/)
+- [交互式地图](https://satisfactory-calculator.com/en/interactive-map/)
+- [MOD 平台](https://ficsit.app/)
+- [官方论坛](https://questions.satisfactorygame.com/)
+- [官方维基](https://satisfactory.fandom.com/wiki/Dedicated_servers)
