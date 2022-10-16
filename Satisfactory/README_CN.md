@@ -27,7 +27,7 @@ yunyizhiying/satisfactory:latest
 
 请不要随意删除已经创建的容器，那样在重新创建时会重新下载服务器资源
 
-游戏存档位置为`/game/saves`,实例命令中已经将它挂载到了`～/satisfactory`上，游戏配置已经解锁多人游戏上限为 16 人！
+游戏存档位置为`/game/saves`, 游戏的服务器配置为`/game/config`, 实例命令中已经将它挂载到了`～/satisfactory`上，游戏配置已经解锁多人游戏上限为 16 人！
 
 更新服务器：只需要重启容器即可，会自动执行更新！
 

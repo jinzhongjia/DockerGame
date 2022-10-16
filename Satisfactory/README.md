@@ -33,7 +33,7 @@ If you meet errors, you just can restart the container, the container will fix i
 
 Don't remove container(that mean you must download the game resources again)
 
-The game's archive is under /game/saves, the example command will mount it to ~/satisfactory.
+The game's archive is under `/game/saves`, Game's is under `/game/config`, the example command will mount it to `~/satisfactory`
 
 _!! Unlocked multiplayer limit of 16 players._
 

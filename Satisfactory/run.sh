@@ -24,11 +24,9 @@ if [ ! -f "$File" ]; then
   echo "Start game configuration optimization"
   # mkdir -p "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
   # cp /home/steam/config/Game.ini  "$GameDir"/FactoryGame/Saved/Config/LinuxServer/
-  mkdir -p /game/config
-  ln -sf "/game/config" "$GameDir"/FactoryGame/Saved/Config/LinuxServer
+  ln -sf /game/config "$GameDir"/FactoryGame/Saved/Config/LinuxServer
   cp /home/steam/config/Game.ini  /game/config/
-  mkdir -p /game/saves 
-  ln -sf "/game/saves" "/home/steam/.config/Epic/FactoryGame/Saved/SaveGames/server"
+  ln -sf /game/saves "/home/steam/.config/Epic/FactoryGame/Saved/SaveGames/server"
   echo "Configuration optimization completed"
 fi
 

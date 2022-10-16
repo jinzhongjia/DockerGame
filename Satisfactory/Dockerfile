@@ -7,6 +7,9 @@ RUN mkdir -p /game \
 
 USER steam
 
+RUN mkdir /game/saves \
+ && mkdir /game/config
+
 COPY --chown=steam:steam run.sh /home/steam/
 COPY --chown=steam:steam config/*.ini  /home/steam/config/
 
