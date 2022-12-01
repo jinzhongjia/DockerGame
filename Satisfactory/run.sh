@@ -18,7 +18,7 @@ fi
 
 echo "Game resource download complete"
 
-Determine whether the file exists to determine whether it is running for the first time
+# Determine whether the file exists to determine whether it is running for the first time
 if [ ! -f "$File" ]; then
   touch "$File"
   echo "Start game configuration optimization"
