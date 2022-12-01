@@ -4,4 +4,4 @@
 
 ## 支持的游戏
 
-- [《幸福工厂》](https://github.com/jinzhongjia/DockerGame/tree/main/Satisfactory)
+- [《幸福工厂》](https://github.com/jinzhongjia/DockerGame/blob/main/Satisfactory/README_CN.md)
